@@ -124,3 +124,37 @@
 //         println!("ewww");
 //     }
 // }
+
+//***********LECTURE 08***********\\
+
+//IMP:Rust only return a expression not a statement.
+
+// fn main(){
+//     let result = add_numbers(2,3);
+//     println!("print : {}",result);
+// }
+
+// fn test_one(){
+// println!("func test..");
+// }
+
+// fn sum_func(x:i32, y:i32){
+//     println!("sum of xy is : {}",x+y)
+// }
+
+// fn sum_func(){
+//     // example of an expression
+//     let number = {  
+//         let x = 3;
+//         // x + 1; if semicolon it's not a expression.
+//         x + 1 if !semicolon it's a expression.
+//     };
+//     println!("{}", number);
+// }
+
+// fn add_numbers(x:i32, y:i32) -> i32 {
+//     // returning value in i32
+//     // x + y; if semicolon it's not a expression. wont work
+//     // x + y; if !semicolon it's a expression. will work
+//     // return x + y;  this will also work!
+// }
